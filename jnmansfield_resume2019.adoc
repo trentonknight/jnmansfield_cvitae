@@ -10,7 +10,24 @@ Jason Mansfield  <trentonknight@gmail.com>
 :quick-uri: https://www.linkedin.com/in/trentonknight/
 
 == Contact Information
-https://www.linkedin.com/in/trentonknight/[trentonknight @ *Linkedin*]
+
+[%header,cols=2*]
+|===
+|Contact method
+|
+
+|Telephone
+|(757) 753-0085
+
+|Email
+|trentonknight@gmail.com
+
+|Social
+|https://www.linkedin.com/in/trentonknight/[trentonknight @ *Linkedin*]
+
+|===
+
+
 
 == Education
 .Universities Attended
@@ -186,5 +203,9 @@ Install from source code
 git clone https://github.com/asciidoctor/asciidoctor.git
 ----
 
-This is another paragraph.footnote:[I am footnote text and will be displayed at the bottom of the article.]
+== Clone the latest version of this resume
+The latest version of this resume may be retrieved here: 
+----
+git clone https://github.com/trentonknight/jnmansfield_cvitae.git
+----
 
