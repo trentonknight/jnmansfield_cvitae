@@ -3,11 +3,9 @@ Jason Mansfield  <trentonknight@gmail.com>
 1.0, Jan 17, 2019, Curriculum Vitae
 :toc:
 :icons: font
-:source-highlighter: prettify
+//:source-highlighter: prettify
+:source-highlighter: rouge
 
-
-:favicon: direct.png
-:quick-uri: https://www.linkedin.com/in/trentonknight/
 
 == Contact Information
 
@@ -54,7 +52,7 @@ Awarded a Bachelor of Science in Computer Science from Regis University on the 2
 *** Position Title: Battle Bridge Supervisor
 *** Job description
 ****
-As a watch supervisor for the CGCYBER NOSC EOC Battle bridge I am responsible for managing and leading the Analysts in successfully meeting senior leadership expectations of monitoring enterprise information systems for critical events, remediating incidents & problems, granting or denying access requests, and fulfilling valid requests. Additionally, I spend some time training new and existing analysts with developing new Powershell scripts to help with the automation of goals in bulk or faster. Watch Supervisors develop and perform the DODIN and bi-weekly briefs to Leadership directly.
+As a watch supervisor for the CGCYBER NOSC EOC Battle bridge I am responsible for managing and leading the Analysts in successfully meeting senior leadership expectations of monitoring enterprise information systems for critical events, remedying incidents & problems, granting or denying access requests, and fulfilling valid requests. Additionally, I spend some time training new and existing analysts with developing new Powershell scripts to help with the automation of goals in bulk or faster. Watch Supervisors develop and perform the DODIN and bi-weekly briefs to Leadership directly.
 ****
 * USCGC DILIGENCE WMEC-616
 ** Timeframe: 2014 to 2017
@@ -97,7 +95,7 @@ I spent my first two years in the US Navy at STRIKE FIGHTER SQUADRON ONE TWO FIV
 === Programming Languages
 I have the most experience with the following languages.
 
-==== RUST Language
+==== RUST
 [source, rust]
 ----
 fn aws_serverless(){
@@ -116,7 +114,7 @@ int main() {
   cout << "Used throughout college for learning basic algorithms."
 }
 ----
-==== I have been using Python for years.
+==== Python
 [source, python]
 ----
 import pandas as used_for_searching_csv_files
@@ -127,7 +125,7 @@ from sklearn import of_course
 
 print("Python!")
 ----
-==== I have been using Powershell since it was created. 
+==== Powershell  
 [source, powershell]
 ----
 import-module activedirectory
@@ -137,7 +135,7 @@ $Session = New-PSSession -ConfigurationName Microsoft.Exchange
 write-host "Primarily use Powershell for analyst efforts at CGCYBER."
 ----
 
-==== I used LaTeX throughout college and before for hobby reasons.
+==== LaTeX 
 [source, LaTeX]
 ----
 \documentclass{article}
@@ -146,7 +144,7 @@ LaTeX
 \end{document}
 ----
 
-==== I used Java and Android studio throughout college and for a few hobbies afterwards.
+==== Java 
 
 [source, Java]
 ----
@@ -160,25 +158,42 @@ public class MainActivity extends Activity {
 }
 ----
 
+=== Software Architectures and Engineering experience
+
+----
+Openstack, Moodle, Wordpress, Microsoft Active Directory and Exchange, Git hosting, Docker, and custom websites using various open source SQL database. 
+----
+
+=== Research
+
+----
+My current effort is to create a serverless application using the RUST Language with a container based platform. I am exploring options with various approaches such as AWS Lambda, Kubernetes, and Apache OpenWhisk. Clearly RUST is a new language and for now some efforts may require use of Node.js. Additionally, I am investigating WebAssembly    
+----
+
 
 == How to best view this Resume
+
+=== Viewing as a PDF
+
+To view as a PDF use the following URL: link:https://github.com/trentonknight/jnmansfield_cvitae/blob/master/jnmansfield_resume2019.pdf[jnmansfield_resume2019.pdf]
+
+=== HTML
 
 This resume has been written for viewing as plain text ascii or may be improved using link:https://asciidoctor.org/[asciidoctor.]
 
 
-
 TIP: This text should be saved with the extension *.adoc.
 
-=== Viewing resume in HTML format
+==== Viewing resume in HTML format
 
 To view this resume as HTML use the following steps. 
 
-==== Change the file format extension to *.adoc.
+===== Change the file format extension to *.adoc.
 ----
 mv jnmansfield_resume2019.txt jnmansfield_resume.adoc
 ----
 
-==== Install asciidoctor
+===== Install asciidoctor
 The asciidoctor tool must be installed. Examples are below or may be
 found on *Github* here:
 link:https://github.com/asciidoctor/asciidoctor[asciidoctor @ *GitHub*]
