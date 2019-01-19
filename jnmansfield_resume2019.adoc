@@ -1,7 +1,7 @@
 = Jason N Mansfield 2019 Curriculum Vitae
 Jason Mansfield  <trentonknight@gmail.com>
 1.0, Jan 17, 2019, Curriculum Vitae
-:toc:
+:toc: left
 :icons: font
 :source-highlighter: prettify
 //:source-highlighter: rouge
@@ -224,9 +224,22 @@ Install from source code
 git clone https://github.com/asciidoctor/asciidoctor.git
 ----
 
+===== Use asciidoctor to create a HTML version
+
+----
+asciidoctor jnmansfield_resume2019.adoc
+----
+
+====== Add CSS using asciidoctor-stylesheet-factory
+----
+asciidoctor -a stylesheet=gonavy.css jnmansfield_resume2019.adoc
+----
+
 == Clone the latest version of this resume
 The latest version of this resume may be retrieved here: 
 ----
 git clone https://github.com/trentonknight/jnmansfield_cvitae.git
 ----
+
+
 
