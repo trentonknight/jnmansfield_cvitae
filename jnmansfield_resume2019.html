@@ -758,10 +758,9 @@ b.conum * { color: inherit !important; }
 <li><a href="#_how_to_best_view_this_resume">How to best view this Resume</a>
 <ul class="sectlevel2">
 <li><a href="#_viewing_as_a_pdf">Viewing as a PDF</a></li>
-<li><a href="#_html">HTML</a></li>
+<li><a href="#_viewing_as_html">Viewing as HTML</a></li>
 </ul>
 </li>
-<li><a href="#_clone_the_latest_version_of_this_resume">Clone the latest version of this resume</a></li>
 </ul>
 </div>
 </div>
@@ -1184,6 +1183,9 @@ LaTeX
 <div class="sect1">
 <h2 id="_how_to_best_view_this_resume">How to best view this Resume</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>This resume has been written for viewing as plain text ascii or may be improved using <a href="https://asciidoctor.org/">asciidoctor.</a></p>
+</div>
 <div class="sect2">
 <h3 id="_viewing_as_a_pdf">Viewing as a PDF</h3>
 <div class="paragraph">
@@ -1191,41 +1193,31 @@ LaTeX
 </div>
 </div>
 <div class="sect2">
-<h3 id="_html">HTML</h3>
-<div class="paragraph">
-<p>This resume has been written for viewing as plain text ascii or may be improved using <a href="https://asciidoctor.org/">asciidoctor.</a></p>
-</div>
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-This text should be saved with the extension *.adoc.
-</td>
-</tr>
-</table>
-</div>
+<h3 id="_viewing_as_html">Viewing as HTML</h3>
 <div class="sect3">
-<h4 id="_viewing_resume_in_html_format">Viewing resume in HTML format</h4>
+<h4 id="_grab_html_version_from_github">Grab HTML version from GitHub</h4>
 <div class="paragraph">
-<p>To view this resume as HTML use the following steps.</p>
+<p>Clone the latest version of this resume. The latest version of this resume may be retrieved here:</p>
 </div>
-<div class="sect4">
-<h5 id="_change_the_file_format_extension_to_adoc">Change the file format extension to *.adoc.</h5>
 <div class="listingblock">
 <div class="content">
-<pre>mv jnmansfield_resume2019.txt jnmansfield_resume.adoc</pre>
+<pre>git clone https://github.com/trentonknight/jnmansfield_cvitae.git</pre>
 </div>
 </div>
-</div>
-<div class="sect4">
-<h5 id="_install_asciidoctor">Install asciidoctor</h5>
 <div class="paragraph">
-<p>The asciidoctor tool must be installed. Examples are below or may be
-found on <strong>Github</strong> here:
-<a href="https://github.com/asciidoctor/asciidoctor">asciidoctor @ <strong>GitHub</strong></a></p>
+<p>Using a browser</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>firefox jnmansfield_cvitae/jnmansfield_resume2019.html &amp;</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_install_asciidoctor_for_compiling_and_using_resume_as_a_template">Install asciidoctor for compiling and using resume as a template.</h4>
+<div class="paragraph">
+<p>The asciidoctor tool must be installed to compile. Examples are below or more may be
+found on <strong>Github</strong> here: <a href="https://github.com/asciidoctor/asciidoctor">asciidoctor @ <strong>GitHub</strong></a></p>
 </div>
 <div class="paragraph">
 <p>Arch Linux</p>
@@ -1259,36 +1251,53 @@ found on <strong>Github</strong> here:
 <pre>git clone https://github.com/asciidoctor/asciidoctor.git</pre>
 </div>
 </div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+asciidoctor files need to be saved with the extension *.adoc.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_if_needed_change_the_file_format_extension_to_adoc">If needed change the file format extension to *.adoc.</h4>
+<div class="listingblock">
+<div class="content">
+<pre>mv jnmansfield_resume2019.txt my_new_resume.adoc</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_use_asciidoctor_to_export_html_or_pdf">Use <a href="https://github.com/asciidoctor/asciidoctor">asciidoctor</a> to export HTML or PDF</h4>
+<div class="sect4">
+<h5 id="_html_creation">HTML creation</h5>
+<div class="listingblock">
+<div class="content">
+<pre>asciidoctor my_new_resume.adoc</pre>
+</div>
+</div>
 </div>
 <div class="sect4">
-<h5 id="_use_asciidoctor_to_create_a_html_version">Use asciidoctor to create a HTML version</h5>
+<h5 id="_pdf_creations_using_asciidoctor_pdf">PDF creations using <a href="https://asciidoctor.org/docs/asciidoctor-pdf/">asciidoctor-pdf</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre>asciidoctor jnmansfield_resume2019.adoc</pre>
+<pre>asciidoctor-pdf my_new_resume.adoc</pre>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_add_css_using_asciidoctor_stylesheet_factory">Add CSS using asciidoctor-stylesheet-factory</h6>
+</div>
+<div class="sect4">
+<h5 id="_add_css_using_asciidoctor_stylesheet_factory">Add CSS using <a href="https://github.com/asciidoctor/asciidoctor-stylesheet-factory">asciidoctor-stylesheet-factory</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre>asciidoctor -a stylesheet=gonavy.css jnmansfield_resume2019.adoc</pre>
+<pre>asciidoctor -a stylesheet=gonavy.css my_new_resume.adoc</pre>
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_clone_the_latest_version_of_this_resume">Clone the latest version of this resume</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The latest version of this resume may be retrieved here:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>git clone https://github.com/trentonknight/jnmansfield_cvitae.git</pre>
 </div>
 </div>
 </div>
@@ -1297,7 +1306,7 @@ found on <strong>Github</strong> here:
 <div id="footer">
 <div id="footer-text">
 Version 1.0<br>
-Last updated 2019-01-18 21:24:23 -0500
+Last updated 2019-01-18 22:28:28 -0500
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">

@@ -3,9 +3,8 @@ Jason Mansfield  <trentonknight@gmail.com>
 1.0, Jan 17, 2019, Curriculum Vitae
 :toc: left
 :icons: font
-:source-highlighter: prettify
-//:source-highlighter: rouge
-
+//:source-highlighter: prettify
+:source-highlighter: rouge
 
 == Contact Information
 
@@ -24,7 +23,6 @@ Jason Mansfield  <trentonknight@gmail.com>
 |https://www.linkedin.com/in/trentonknight/[trentonknight @ *Linkedin*]
 
 |===
-
 
 
 == Education
@@ -179,30 +177,28 @@ My current effort is to create a serverless application using the RUST Language 
 
 == How to best view this Resume
 
+This resume has been written for viewing as plain text ascii or may be improved using link:https://asciidoctor.org/[asciidoctor.]
+
 === Viewing as a PDF
 
 To view as a PDF use the following URL: link:https://github.com/trentonknight/jnmansfield_cvitae/blob/master/jnmansfield_resume2019.pdf[jnmansfield_resume2019.pdf]
 
-=== HTML
-
-This resume has been written for viewing as plain text ascii or may be improved using link:https://asciidoctor.org/[asciidoctor.]
+=== Viewing as HTML
 
 
-TIP: This text should be saved with the extension *.adoc.
-
-==== Viewing resume in HTML format
-
-To view this resume as HTML use the following steps. 
-
-===== Change the file format extension to *.adoc.
+==== Grab HTML version from GitHub
+Clone the latest version of this resume. The latest version of this resume may be retrieved here: 
 ----
-mv jnmansfield_resume2019.txt jnmansfield_resume.adoc
+git clone https://github.com/trentonknight/jnmansfield_cvitae.git
+----
+Using a browser
+----
+firefox jnmansfield_cvitae/jnmansfield_resume2019.html &
 ----
 
-===== Install asciidoctor
-The asciidoctor tool must be installed. Examples are below or may be
-found on *Github* here:
-link:https://github.com/asciidoctor/asciidoctor[asciidoctor @ *GitHub*]
+==== Install asciidoctor for compiling and using resume as a template.
+The asciidoctor tool must be installed to compile. Examples are below or more may be
+found on *Github* here: link:https://github.com/asciidoctor/asciidoctor[asciidoctor @ *GitHub*]
 
 Arch Linux
 ----
@@ -223,22 +219,26 @@ Install from source code
 ----
 git clone https://github.com/asciidoctor/asciidoctor.git
 ----
+TIP: asciidoctor files need to be saved with the extension *.adoc. 
 
-===== Use asciidoctor to create a HTML version
-
+==== If needed change the file format extension to *.adoc.
 ----
-asciidoctor jnmansfield_resume2019.adoc
-----
-
-====== Add CSS using asciidoctor-stylesheet-factory
-----
-asciidoctor -a stylesheet=gonavy.css jnmansfield_resume2019.adoc
+mv jnmansfield_resume2019.txt my_new_resume.adoc
 ----
 
-== Clone the latest version of this resume
-The latest version of this resume may be retrieved here: 
+==== Use link:https://github.com/asciidoctor/asciidoctor[asciidoctor] to export HTML or PDF
+
+===== HTML creation
 ----
-git clone https://github.com/trentonknight/jnmansfield_cvitae.git
+asciidoctor my_new_resume.adoc
+----
+===== PDF creations using link:https://asciidoctor.org/docs/asciidoctor-pdf/[asciidoctor-pdf]
+----
+asciidoctor-pdf my_new_resume.adoc
+----
+===== Add CSS using link:https://github.com/asciidoctor/asciidoctor-stylesheet-factory[asciidoctor-stylesheet-factory]
+----
+asciidoctor -a stylesheet=gonavy.css my_new_resume.adoc
 ----
 
 
