@@ -3,8 +3,8 @@ Jason Mansfield  <trentonknight@gmail.com>
 1.0, Jan 17, 2019, Curriculum Vitae
 :toc: left
 :icons: font
-//:source-highlighter: prettify
-:source-highlighter: rouge
+:source-highlighter: prettify
+//:source-highlighter: rouge
 
 == Contact Information
 
@@ -59,7 +59,7 @@ As a watch supervisor for the U.S. Coast Guard Cyber Command (CGCYBER), Network 
 *** Address: USCGC DILIGENCE (WMEC 616). 109 North Water Street. Wilmington, N.C. 28401
 *** Job description
 ****
-While attached to this unit I independently managed the USCGC DILIGENCE shipboard LAN network, this included cabling, and security for two Cisco 3750G switches. Troubleshot shore side cabling issues connecting to WAN infrastructure in multiple locations such as Wilmington, NC, Key West Florida, Naval Station Guantanamo Bay Cuba, Naval Station Mayport Florida. Shipboard administrator for two host servers each containing multiple virtual servers including Microsoft Server 2008 R2 and Microsoft Exchange and others. I Managed both CGONE and SIPR networks and all associated equipment such as TACLANE, Routers, HDSL modems, and all cabling onboard and to the WAN. Administrated, repaired and replaced several satellite systems such as KVH (KU-Band) and Fleet Broadband (Inmarsat B). Maintained all shipboard workstations on both CGONE and SIPR networks handling installing, updating, recap, drmo and secure destruction of all associated hardware. Supported all shipboard printers including CGONE and SIPR side hardware. Maintained shipboard phone systems. Above duties as the only onboard technician, I was expected to qualify and stand watch as a "boatswain mate of the watch," "gangway petty officer of the watch," and "sounding and security watch." I volunteered for and stood security watch for law enforcement operations dealing with illegal migrants and drug trafficking detainees and "Anti Terrorist Force Protection."
+While attached to this unit I independently managed the USCGC DILIGENCE shipboard LAN network, this included cabling, and security for two Cisco 3750G switches. Troubleshot shore side cabling issues connecting to WAN infrastructure in multiple locations such as Wilmington, NC, Key West Florida, Naval Station Guantanamo Bay Cuba, Naval Station Mayport Florida. Shipboard administrator for two host servers each containing multiple virtual servers including Microsoft Server 2008 R2 and Microsoft Exchange and others. I Managed both CGONE and SIPR networks and all associated equipment such as TACLANE, Routers, HDSL modems, and all cabling onboard and to the WAN. Administrated, repaired and replaced several satellite systems such as KVH (KU-Band) and Fleet Broadband (Inmarsat B).
 ****
 * ESD CHESAPEAKE/FINCEN INFO SYS DIV
 ** Timeframe: 2010 to 2014
@@ -84,8 +84,7 @@ During my service with the USCGC LEGARE WMEC-912. I was a Surface swimmer, Comba
 *** Address: Naval Air Station Oceana. 1750 Tomcat Blvd. Virginia Beach, VA 23460 
 *** Job description
 ****
-In 2004 VFA-81 I deployed with Carrier Air Wing Seventeen CVW-17 on the USS John F. Kennedy CV-67 for its final cruise before decommissioning. My time in the Mediterranean and the Arabian Sea consisting of standard Aviation Ordnanceman tasks such as weapons systems maintenance, loading team member and other flight operation related efforts on the flight deck. During the course of operations in Iraq, 54,000 pounds of ordnance were dropped by the jets of CVW-17 squadrons, including F/A-18s Hornets from the Blue blaster of Strike Fighter Squadron (VFA) 34, the Rampagers of VFA-83, the Sunliners of VFA-81 and F-14 Tomcats from the Jolly Rogers of Fighter Squadron (VF) 103. The John F. Kennedy Strike group supported Operations "Iraqi Freedom," "Enduring Freedom," and "Al Fajr." During flight operations, I spend the majority of my time (arming) and retrieving (de-arming if needed) several jets, something which became critical near the end of this patrol during Al Fajr or the second battle of Fallujah.
-
+In 2004 VFA-81 I deployed with Carrier Air Wing Seventeen CVW-17 on the USS John F. Kennedy CV-67 for its final cruise before decommissioning. My time in the Mediterranean and the Arabian Sea consisting of standard Aviation Ordnanceman tasks such as weapons systems maintenance, loading team member and other flight operation related efforts on the flight deck.
 ****
 * U.S. NAVY STRIKE FIGHTER SQUADRON ONE TWO FIVE VFA-125
 ** Timeframe: 2001 to 2003
@@ -93,7 +92,7 @@ In 2004 VFA-81 I deployed with Carrier Air Wing Seventeen CVW-17 on the USS John
 *** Address: 330 Reeve Blvd. Hangar 5 Mod 1. Naval Air Station Lemoore, CA 93246
 *** Job description
 ****
-I spent my first two years in the US Navy at STRIKE FIGHTER SQUADRON ONE TWO FIVE VFA-125 ROUGH RAIDERS directly after boot camp and A school. I learned how to load and lead ordnance loading teams in a professional manner, flight deck operations, ordnance safety and many other basics during this timeframe. I had the pleasure of working with and for US Marines during my time with the Rough Raiders. I was awarded a Letter of Commendation at the end of this tour.
+I spent my first two years in the US Navy at STRIKE FIGHTER SQUADRON ONE TWO FIVE VFA-125 ROUGH RAIDERS directly after boot camp and A school. I learned how to load and lead ordnance loading teams in a professional manner, flight deck operations, ordnance safety and many other basics during this timeframe. 
 ****
 == Professional and educational experience
 === Programming Languages
