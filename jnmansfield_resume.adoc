@@ -4,7 +4,7 @@ Jason Mansfield  <trentonknight@protonmail.com>
 :toc: left
 :icons: font
 :source-highlighter: prettify
-//:source-highlighter: rouge
+:source-highlighter: rouge
 
 == Contact Information
 
@@ -24,8 +24,7 @@ Jason Mansfield  <trentonknight@protonmail.com>
 |https://www.linkedin.com/in/trentonknight/[trentonknight @ *Linkedin*]
 
 |Residing at the following Physical Locations
-|* Clayton, NC 27527
- * Potamac, MD 20854 
+|Clayton, NC 27527 and Potamac, MD 20854 
 
 |Clearance Level
 |TS/SCI
@@ -108,6 +107,37 @@ I spent my first two years in the US Navy at STRIKE FIGHTER SQUADRON ONE TWO FIV
 === Programming Languages
 I have the most experience with the following languages.
 
+==== Verilog
+[source, verilog]
+----
+module TinyFPGA_B (
+  inout pin1_usb_dp,
+  inout pin2_usb_dn,
+  input pin3_clk_16mhz,
+  inout pin4,
+  inout pin5,
+  inout pin6,
+  inout pin7,
+  inout pin8,
+  inout pin9,
+  inout pin10,
+  inout pin11,
+  inout pin12,
+  inout pin13,
+  inout pin14_sdo,
+  inout pin15_sdi,
+  inout pin16_sck,
+  inout pin17_ss,
+  inout pin18,
+  inout pin19,
+  inout pin20,
+  inout pin21,
+  inout pin22,
+  inout pin23,
+  inout pin24
+);
+----
+
 ==== RUST
 [source, rust]
 ----
@@ -179,14 +209,12 @@ Openstack, Moodle, Wordpress, Microsoft Active Directory and Exchange, Git hosti
 
 == Professional Goals
 
-----
-I am currently enrolled as a [Non-Degree Studies (NDS) student](https://registrar.ncsu.edu/nds/) at NC State University in an effort to meet undergraduate requirements to enroll into the Masters of Science in Computer Engineering with a computer-architecture-and-systems-plan-of-work](https://www.ece.ncsu.edu/grad/masters/computer-architecture-and-systems-plan-of-work/).
-----
+I am currently enrolled as a https://registrar.ncsu.edu/nds/[Non-Degree Studies (NDS) student] at NC State University in an effort to meet undergraduate requirements to enroll into the Masters of Science in Computer Engineering with a https://www.ece.ncsu.edu/grad/masters/computer-architecture-and-systems-plan-of-work/[computer-architecture-and-systems-plan-of-work].
+
 == Research and Education Goals
 
-----
-My current efforts include the [GCIH](https://www.giac.org/certification/certified-incident-handler-gcih) certification, Using Hardware Description Languages such as [Verilog](https://www.veripool.org/wiki/verilator) and [CHISEL](https://www.chisel-lang.org/) with specific low power [Field Programable Gate Array's](https://en.wikipedia.org/wiki/Field-programmable_gate_array) such as the [TinyFPGA](https://tinyfpga.com/) and [Xilinx Arty A7-35T](https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/). And biblical study with [Koine Greek](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0031/). 
-----
+My current efforts include the https://www.giac.org/certification/certified-incident-handler-gcih[GCIH] certification, using Hardware Description Languages such as https://www.veripool.org/wiki/verilator[Verilog] and https://www.chisel-lang.org/[CHISEL] with specific low power https://en.wikipedia.org/wiki/Field-programmable_gate_array[Field Programable Gate Array's] such as the https://tinyfpga.com/[TinyFPGA] and https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/[Xilinx Arty A7-35T]. Addtionally, for personal reasons I am attempting to research https://scaife.perseus.org/library/urn:cts:greekLit:tlg0031/[Koine Greek]. 
+
 
 
 == How to best view this Resume
@@ -237,7 +265,7 @@ TIP: asciidoctor files need to be saved with the extension *.adoc.
 
 ==== If needed change the file format extension to *.adoc.
 ----
-mv jnmansfield_resume.txt my_new_resume.adoc
+mv jnmansfield_resume.md my_new_resume.adoc
 ----
 
 ==== Use link:https://github.com/asciidoctor/asciidoctor[asciidoctor] to export HTML or PDF
