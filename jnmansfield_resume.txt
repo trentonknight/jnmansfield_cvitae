@@ -1,6 +1,6 @@
 = Jason N Mansfield 2019 Curriculum Vitae
-Jason Mansfield  <trentonknight@gmail.com>
-1.0, Jan 17, 2019, Curriculum Vitae
+Jason Mansfield  <trentonknight@protonmail.com>
+1.1, Dec 11, 2020, Curriculum Vitae
 :toc: left
 :icons: font
 :source-highlighter: prettify
@@ -17,13 +17,15 @@ Jason Mansfield  <trentonknight@gmail.com>
 |(757) 753-0085
 
 |Email
-|trentonknight@gmail.com
+|trentonknight@protonmail.com
+
 
 |Social
 |https://www.linkedin.com/in/trentonknight/[trentonknight @ *Linkedin*]
 
-|Physical Location
-|Herndon, VA 20171
+|Residing at the following Physical Locations
+|* Clayton, NC 27527
+ * Potamac, MD 20854 
 
 |Clearance Level
 |TS/SCI
@@ -47,17 +49,19 @@ Jason Mansfield  <trentonknight@gmail.com>
 ****
 Awarded a Bachelor of Science in Computer Science from Regis University on the 23rd of August 2013 with a GPA of 3.413. The Computing Accreditation Commission of ABET accredits this Computer Science degree. Additionally, after receiving a grade of A in both Calculus I and II, followed by an A in Linear Algebra, I earned Dean List Recognition in the Spring of 2013.
 ****
+== Certifications
+* CompTIA Security+
 
 == Work History
 
 .Brief on work history
 * U.S. Coast Guard Cyber Command
 ** Timeframe: 2017 to current
-*** Position Title: Battle Bridge Supervisor
+*** Position Title: Incident Response and Battle Bridge C-SOC Watch Supervisor
 *** Address: Base National Capital Region. 2701 Martin Luther King Jr Ave SE. Washington, DC 20593
 *** Job description
 ****
-As a watch supervisor for the U.S. Coast Guard Cyber Command (CGCYBER), Network Operations and Security Center (NOSC), Enterprise Operations Center (EOC), Battle bridge I am responsible for managing and leading the Analysts in successfully meeting senior leadership expectations of monitoring enterprise information systems for critical events, remedying incidents & problems, granting or denying access requests, and fulfilling valid requests. Additionally, I spend some time training new and existing analysts with developing new Powershell scripts to help with the automation of goals in bulk or faster. Watch Supervisors develop and perform the DODIN and bi-weekly briefs to Leadership directly.
+As a watch supervisor for the U.S. Coast Guard Cyber Command (CGCYBER), Network Operations and Security Center (NOSC), Enterprise Operations Center (C-SOC), Battle bridge I am responsible for managing and leading the Analysts in successfully meeting senior leadership expectations of monitoring enterprise information systems for critical events, remedying cyber related incidents & problems, and other needs. Watch Supervisors develop and perform the DODIN and bi-weekly briefs to Leadership directly. I am currently in training to be placed as a supervisor on the Incident Responce team. 
 ****
 * USCGC DILIGENCE WMEC-616
 ** Timeframe: 2014 to 2017
@@ -108,7 +112,7 @@ I have the most experience with the following languages.
 [source, rust]
 ----
 fn aws_serverless(){
-  println!("Currently working to develop a service with AWS Lambda");
+  println!("AWS Lambda");
 }
 
 fn main() {
@@ -176,12 +180,12 @@ Openstack, Moodle, Wordpress, Microsoft Active Directory and Exchange, Git hosti
 == Professional Goals
 
 ----
-I am currently exploring options to work with a fully remote team in Software Development to both enhance my skill set, and be a contributing member to a project. Due to my existing career with the U.S. Coast Guard I desire flexible hours but will be able to offer five days or nights a week of focused efforts. 
+I am currently enrolled as a [Non-Degree Studies (NDS) student](https://registrar.ncsu.edu/nds/) at NC State University in an effort to meet undergraduate requirements to enroll into the Masters of Science in Computer Engineering with a computer-architecture-and-systems-plan-of-work](https://www.ece.ncsu.edu/grad/masters/computer-architecture-and-systems-plan-of-work/).
 ----
 == Research and Education Goals
 
 ----
-My current effort is to create a serverless application using the RUST Language with a container based platform. I am exploring options with various approaches such as AWS Lambda, Kubernetes, and Apache OpenWhisk.
+My current efforts include the [GCIH](https://www.giac.org/certification/certified-incident-handler-gcih) certification, Using Hardware Description Languages such as [Verilog](https://www.veripool.org/wiki/verilator) and [CHISEL](https://www.chisel-lang.org/) with specific low power [Field Programable Gate Array's](https://en.wikipedia.org/wiki/Field-programmable_gate_array) such as the [TinyFPGA](https://tinyfpga.com/) and [Xilinx Arty A7-35T](https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/). And biblical study with [Koine Greek](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0031/). 
 ----
 
 
@@ -191,7 +195,7 @@ This resume has been written for viewing as plain text ascii or may be improved 
 
 === Viewing as a PDF
 
-To view as a PDF use the following URL: link:https://github.com/trentonknight/jnmansfield_cvitae/blob/master/jnmansfield_resume2019.pdf[jnmansfield_resume2019.pdf]
+To view as a PDF use the following URL: link:https://github.com/trentonknight/jnmansfield_cvitae/blob/master/jnmansfield_resume.pdf[jnmansfield_resume.pdf]
 
 === Viewing as HTML
 
@@ -203,7 +207,7 @@ git clone https://github.com/trentonknight/jnmansfield_cvitae.git
 ----
 Using a browser
 ----
-firefox jnmansfield_cvitae/jnmansfield_resume2019.html &
+firefox jnmansfield_cvitae/jnmansfield_resume.html &
 ----
 
 ==== Install asciidoctor for compiling and using resume as a template.
@@ -233,7 +237,7 @@ TIP: asciidoctor files need to be saved with the extension *.adoc.
 
 ==== If needed change the file format extension to *.adoc.
 ----
-mv jnmansfield_resume2019.txt my_new_resume.adoc
+mv jnmansfield_resume.txt my_new_resume.adoc
 ----
 
 ==== Use link:https://github.com/asciidoctor/asciidoctor[asciidoctor] to export HTML or PDF
